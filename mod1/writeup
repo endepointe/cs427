@@ -1,0 +1,37 @@
+One-Time Pad:
+	k,m,c subset of {0,1}^lambda
+	KeyGen -> k
+	Enc(k,m) -> (k XOR m)
+	Dec(k,c) -> (k XOR c)
+
+	The functionality of a one-time pad 
+	The one-time pad has the requirement that its keys be as long as the plaintexts that they encrypt. This limitation creates another - reusability. The key can only be used to encrypt a single plaintext (or another of equal length). 
+
+	The one-time pad can be applied in the following instances when eavesdropping is expected.
+
+
+Secret-Sharing Schemes:
+	The functionality of a secret-sharing scheme 
+
+	The limitations of a secret-sharing scheme include
+
+	The secret-sharing scheme can be applied in the following instances
+
+
+Security Definition and Proof:
+
+	Formal Security Definition contains the following properties
+
+	To prove that something is secure, the following components must exist
+
+	An example of a formal security proof and attack is
+
+
+Discussion topics:
+
+	Eavesdrop subroutine vs Env Procedure of OTP
+
+	Why are both of them in the chapter? When are they relevant?
+
+	What in this chapter should be elaborated on?
+
